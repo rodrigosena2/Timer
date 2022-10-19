@@ -30,8 +30,7 @@
     }
 }
 body {
-    height: 100%;
-    width: 100%;
+
     margin: 0;
     padding: 0;
     /*background: var(--primary-color); */
@@ -43,7 +42,7 @@ body {
 
 }
 .container {
-    max-width: 640px;
+    width: 640px;
     margin: 230px auto;
     background-color: white;
     padding: 20px;
