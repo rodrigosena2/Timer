@@ -14,23 +14,10 @@
     box-sizing: border-box;
     outline: 0;
 }
-@media screen and (max-width: 768px) {
-    body {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        /*background: var(--primary-color); */
-        background-image: linear-gradient(to left, #45214A, #323050, #21445B);
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.3em;
-        line-height: 1.5em;
-        text-align: center;
-    
-    }
-}
-body {
 
+body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     /*background: var(--primary-color); */
@@ -40,6 +27,9 @@ body {
     line-height: 1.5em;
     text-align: center;
 
+}
+@media screen  and (max-width: 600px) {
+    .container, .relogio, .iniciar
 }
 .container {
     width: 640px;
