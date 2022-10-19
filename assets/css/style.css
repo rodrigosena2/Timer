@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Sriracha&display=swap');
 
-@media screen and (max-width: 1000px) {
-    
-}
 :root {
     --primary-color: rgb(17, 106, 134);
     --primary-color-darker: rgb(14, 79, 100);
