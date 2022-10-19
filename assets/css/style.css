@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Sriracha&display=swap');
 
+@media (min-width: 600px) and (max-width: 1000px) {
+
+}
 
 :root {
     --primary-color: rgb(17, 106, 134);
@@ -14,6 +17,8 @@
 }
 
 body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
     /*background: var(--primary-color); */
